@@ -5,6 +5,7 @@ package HomeWork1;
  */
 
  import java.util.Scanner;
+
 public class Task03 {
  // метод получения числа
  static int scanNumber() {
@@ -14,6 +15,8 @@ public class Task03 {
     // scan.close(); Почему не получается закрыть Scanner???
 }
 
+
+// метод получения числа операции
 // метод получения числа операции
 static String scanOperations() {
     Scanner scan = new Scanner(System.in);
@@ -21,6 +24,7 @@ static String scanOperations() {
     return operations;
 
 }
+
 
 // метод получения результата
 static int getResult(String opr, int num1, int num2) {
